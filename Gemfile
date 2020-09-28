@@ -10,6 +10,8 @@ group :development do
 gem "pry"
 end
 
+# had to move rspec down here and create a test group with it
+
 group :test do
   gem 'rspec'
 end
